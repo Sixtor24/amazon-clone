@@ -104,7 +104,7 @@ const Footer = () => {
       {/* bottom */}
       <div>
         <p className="text-xs text-center py-2">
-          <CopyrightIcon /> 2023, NOOR MOHAMMAD _ REACTBD.COM
+          <CopyrightIcon /> 2023, SIXTOR24.COM
         </p>
       </div>
     </div>
