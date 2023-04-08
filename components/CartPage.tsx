@@ -40,7 +40,7 @@ const CartPage = () => {
   const handleCheckout = async () => {
     const stripe = await stripePromise;
     // Create a backend session...
-    const response = await fetch("/api/checkout-session.ts", {
+    const response = await fetch("/api/checkout-session", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
