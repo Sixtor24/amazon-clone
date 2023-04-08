@@ -14,5 +14,6 @@
         }),
         // ...add more providers here
     ],
+    secret: "atr5-gt65-9jet"
     }
     export default NextAuth(authOptions);
